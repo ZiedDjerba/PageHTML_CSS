@@ -1,0 +1,94 @@
+/*Genral css*/
+body{
+    
+    margin-top: 80px;
+    font-family: 'Arial , sans-serif';
+}
+
+
+h1{
+font-size: 35px;
+padding: 10px,16px;
+margin-bottom: 20px;
+font-weight: normal;
+}
+p{
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+
+.row1{
+    width: 100%;
+    
+}
+
+/* header css*/
+.columnLeft{
+width: 60%
+}
+.columnRight{
+    width: 35%;
+}
+.columnLeft,.columnRight{
+    float: left;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.columnLeft img{
+    width: 100%;
+    
+    border-radius: 6px;
+    
+}
+.btn{
+    
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 16px;
+    background-color:#337ab7;
+    border-radius: 2px;
+    line-height: 28px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.clear-fix{
+    clear: both;
+}
+
+/* features css*/
+
+.Column1,.Column2, .Column3{
+    width: 30%;
+    float: left;
+    padding-left: 16px;
+    padding-right: 16px;
+    
+}
+.btnMoreInfo{
+    text-decoration: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    color: #333;
+    border-radius: 4px;
+    border: 1px solid #CECECE;
+    font-size: 14px;
+    line-height: 21px;
+    display: inline-block;
+    
+
+}
+.btnMoreInfo:hover{
+    background-color: 	#D3D3D3;
+}
+footer{
+    padding: 30px 0px;
+
+}
+hr{
+    border: 0px;
+    border-top: 1px solid #eee;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
